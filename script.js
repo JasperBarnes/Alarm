@@ -5,4 +5,9 @@ timerEl.textContent = "Stop";
 
 setInterval(() => {
     timerEl.textContent = Temporal.Now.instant().epochMilliseconds - pressedTime;
-},1)
+},1)  
+
+const locked = false 
+if (locked = true){
+
+}
